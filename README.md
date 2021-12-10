@@ -30,5 +30,5 @@ The seventh loop and eighth loop also come in a pair whereby they are responsibl
 The ninth loop is responsible for creating tables using JavaScript. The concept is that 1 table will be created each time the loop detects a change in col_1 data. If the data is duplicated, for example in Figure 53 where Sabah is repeated twice, then a table data will be inserted depending on how many duplicates is available. In our case, each state has their own table after the execution of the code. 
 
 # Tenth Loop
-<img src="Images/Final.png" height="200" width="400">
+<img src="Images/Final.png" height="400" width="300">
 The tenth loop is basically using a loop to create a chart by using am chart to populate each table data.
