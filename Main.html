@@ -44,7 +44,12 @@
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js" integrity="sha512-rmZcZsyhe0/MAjquhTgiUcb4d9knaFc7b5xAfju483gbEXTkeJRUMIPk6s3ySZMYUHEcjKbjLjyddGWMrNEvZg==" crossorigin="anonymous"></script>
     <script>
         //pass the json array from the data soure into javascript variable
-    	var data = {{data|json_dump}};//variable to store the json array
+    	var data = [
+	   {Col_1: "Pahang", Col_2: "Kuantan", Col_3: 0, Col_4: 100, Col_5: 60},
+	   {Col_1: "Pahang", Col_2: "Balok", Col_3: 11, Col_4: 2, Col_5: 40},
+	   {Col_1: "Sabah", Col_2: "Lahat Datu", Col_3: 30, Col_4: 0, Col_5: 20},
+	   {Col_1: "Sarawak", Col_2: "Matu", Col_3: 10, Col_4: 50, Col_5: 4},
+		];//variable to store the json array
         //pass the json array from the data soure into javascript variable 
         
         //variables used in the first loop
